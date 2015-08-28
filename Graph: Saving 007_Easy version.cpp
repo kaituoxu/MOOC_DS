@@ -1,4 +1,4 @@
-ps: The central island is a disk centered at (0,0) with the diameter of 15
+//ps: The central island is a disk centered at (0,0) with the diameter of 15
 #include <iostream>
 #include <cmath>
 
