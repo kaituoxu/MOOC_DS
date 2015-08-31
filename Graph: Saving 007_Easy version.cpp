@@ -98,7 +98,7 @@ bool jump(Vertex V, Vertex W)
 	double dis;
 	dis = pow(V.x - W.x, 2) + pow(V.y - W.y, 2);
 	dis = sqrt(dis);
-	if (dis < D) {
+	if (dis <= D) {
 		return true;
 	} else {
 		return false;
