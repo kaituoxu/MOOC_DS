@@ -68,6 +68,7 @@ int main()
 //		tmp = A[i];
 //		A[i] = A[j];
 //		A[j] = tmp;
+//		++cnt;
 //
 //		i = j;
 //
@@ -86,7 +87,6 @@ int main()
 //				i = k;
 //			}
 //		}//if
-//		++cnt;
 //	}//while
 //
 //
