@@ -4,9 +4,9 @@
 #include <string>
 #include <cstdlib> //atoi
 #include <cstring> //
-#include <ctime>
-clock_t start, stop;
-double duration;
+//#include <ctime>
+//clock_t start, stop;
+//double duration;
 
 using namespace std;
 
@@ -36,7 +36,7 @@ void FindMax(HashTable H);
 int main()
 {
 	HashTable H;
-	int N, maxSame = 1;
+	int N;
 	char send[12], rec[12];
 
 	//start = clock();
