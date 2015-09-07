@@ -1,5 +1,4 @@
 #include <iostream>
-#include <queue>
 
 using namespace std;
 
@@ -102,7 +101,7 @@ void TopSort(AdjGraph G)
 	int v, cnt = 0;
 	int validNum = 0;
 
-	//count the valid num
+	//count the valid num to control output
 	for (int i = 0; i != G.N; ++i) {
 		if (G.adjList[i].Element != -1) {
 			++validNum;
